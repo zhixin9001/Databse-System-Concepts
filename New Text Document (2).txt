@@ -1,0 +1,10 @@
+
+Additional Relational-Algrbra Operations
+除了基本的关系操作，还有一些附加的操作，因为如果只用基本运算，有些表达式会比较繁琐，而附加操作是对某些基本表达的简化。
+
+交集(Set-Intersection Operation)
+交集运算符为∩，用于找出几个集合共有的数据，比如在2009秋季和2010春季都开课的课程
+(semester = “Fall” ∧ year=2009 (section) 
+∩
+(semester = “Spring” ∧ year=2010 (section))
+交集的等价表达式为：r ∩ s = r - (r - s)
